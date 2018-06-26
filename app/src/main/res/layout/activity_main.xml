@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/images"
+        />
+
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Team A"
+        android:onClick="teamA"
+        android:fontFamily="casual"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="0"
+        android:fontFamily="casual"
+        android:paddingLeft="10dp"
+        android:textSize="30dp"/>
+
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Team B"
+        android:onClick="teamB"
+        android:fontFamily="casual"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="0"
+        android:fontFamily="casual"
+        android:textSize="30dp"
+        android:paddingLeft="10dp"/>
+
+
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:onClick="reset"
+            android:fontFamily="casual"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:onClick="submit"
+            android:fontFamily="casual"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+    
+</RelativeLayout>
+
