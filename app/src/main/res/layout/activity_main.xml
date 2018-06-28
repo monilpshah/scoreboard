@@ -33,6 +33,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:paddingLeft="10dp"
+            android:paddingTop="10dp"
             android:text="Score"
             android:textSize="30sp" />
 
@@ -43,6 +44,7 @@
             android:layout_alignParentTop="true"
             android:fontFamily="casual"
             android:paddingLeft="10dp"
+            android:paddingTop="10dp"
             android:text="0"
             android:textSize="30sp"></TextView>
 
@@ -52,6 +54,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:paddingLeft="10dp"
+            android:paddingTop="10dp"
             android:text="Wicket"
             android:textSize="30sp" />
 
@@ -59,9 +62,9 @@
             android:id="@+id/wicket"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
             android:fontFamily="casual"
             android:paddingLeft="10dp"
+            android:paddingTop="10dp"
             android:text="0"
             android:textSize="30sp" />
 
@@ -72,6 +75,8 @@
             android:layout_alignParentTop="true"
             android:fontFamily="casual"
             android:onClick="add1"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
             android:text="1+"
             android:textSize="20sp" />
 
@@ -82,6 +87,8 @@
             android:layout_alignParentTop="true"
             android:fontFamily="casual"
             android:onClick="add2"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
             android:text="2+"
             android:textSize="20sp" />
 
@@ -92,6 +99,8 @@
             android:layout_alignParentTop="true"
             android:fontFamily="casual"
             android:onClick="add3"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
             android:text="3+"
             android:textSize="20sp" />
 
@@ -101,6 +110,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:fontFamily="casual"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
             android:onClick="wicketA"
             android:text="Wicket"
             android:textSize="20sp" />
@@ -118,7 +129,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:fontFamily="casual"
-            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
             android:text="Team B"
             android:textSize="30sp" />
 
@@ -128,7 +139,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:fontFamily="casual"
-            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
             android:text="score"
             android:textSize="30sp" />
 
@@ -138,7 +150,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:fontFamily="casual"
-            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
             android:text="0"
             android:textSize="30sp"></TextView>
 
@@ -148,7 +161,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:fontFamily="casual"
-            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
             android:text="Wicket"
             android:textSize="30sp" />
 
@@ -158,7 +172,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:fontFamily="casual"
-            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
             android:text="0"
             android:textSize="30sp" />
 
@@ -169,6 +184,8 @@
             android:layout_alignParentTop="true"
             android:fontFamily="casual"
             android:onClick="badd1"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
             android:text="1+"
             android:textSize="20sp" />
 
@@ -178,6 +195,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:fontFamily="casual"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
             android:onClick="badd2"
             android:text="2+"
             android:textSize="20sp" />
@@ -189,6 +208,8 @@
             android:layout_alignParentTop="true"
             android:fontFamily="casual"
             android:onClick="badd3"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
             android:text="3+"
             android:textSize="20sp" />
 
@@ -199,6 +220,8 @@
             android:layout_alignParentTop="true"
             android:fontFamily="casual"
             android:onClick="wicketB"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
             android:text="Wicket"
             android:textSize="20sp" />
     </LinearLayout>
@@ -213,4 +236,4 @@
         android:onClick="reset"
         android:text="Reset"
         android:textSize="20sp" />
-</RelativeLayout>
+(</RelativeLayout>

@@ -7,7 +7,10 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    int teama = 0, teamb = 0, wicketA = 0, wicketB = 0;
+    int teama = 0,
+            teamb = 0,
+            wicketA = 0,
+            wicketB = 0;
 
 
     @Override
